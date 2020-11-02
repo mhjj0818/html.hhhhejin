@@ -1,0 +1,21 @@
+.body{ margin:0px;padding: 0px;}
+      .img{position: absolute;z-index: 5; }
+      .img2{position: absolute;}z-index: 5; 
+     .div{display: block; margin: 0px; position:absolute; z-index: 5; }
+      .jini{position: absolute; top:400px; left: 1250px; width: 90%; height: 90%; z-index: 5; }
+      .mouse{position: absolute; top: 0; left: 0; width: 600px; height: 450px; position:absolute;z-index: 5; }
+      .night{top:0px; left:0px; z-index: -5px; position:absolute; width:100%; height: 100%;}
+    .nana {position: absolute;left:600px;top:720px;width:500px; height: 200px; }
+
+      .ani14{position: absolute;left:500px;top:120px;width:700px; height: 400px; animation: heart 1s infinite alternate;}
+            @keyframes heart {0%{top:260px;}100%{top:230px;}}
+
+    .tt{
+   -webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+   
